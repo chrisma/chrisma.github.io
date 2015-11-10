@@ -1,0 +1,111 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#portrait {
+	border-radius: 50%;
+	overflow: hidden;
+	width: 20em;
+	height: 20em;
+}
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	margin-top: 12em;
+}
+
+#container>* {
+	float: left;
+}
+
+#content {
+	margin-left: 50px;
+}
+
+#content hr {
+	margin: 1em 0 3.5em 0;
+}
+
+header {
+	margin-top: 0.35em;
+	margin-left: -4px;
+	font-size: 3.25em;
+}
+
+header strong {
+	font-weight: 700;
+}
+
+img.button {
+	width: 48px;
+}
+
+li {
+	display : inline-block;
+	margin-right: 7px;
+}
+
+ul#socialbar {
+	list-style: none;
+	padding: 0px;
+}
+
+span.small-space {
+	letter-spacing: -0.025em
+}
+
+div.button {
+	background: url(sprites_small.png) no-repeat top left;
+	width: 50px;
+	height: 50px;
+}
+
+#email_btn:hover {
+	background-position: 0 0;
+}
+
+#email_btn {
+	background-position: 0 -60px;
+}
+
+#github_btn:hover {
+	background-position: 0 -120px;
+}
+
+#github_btn {
+	background-position: 0 -180px;
+}
+
+#instructables_btn:hover {
+	background-position: 0 -240px;
+}
+
+#instructables_btn {
+	background-position: 0 -300px;
+}
+
+#soupio_btn:hover {
+	background-position: 0 -360px;
+}
+
+#soupio_btn {
+	background-position: 0 -420px;
+}
+
+#speakerdeck_btn:hover {
+	background-position: 0 -480px;
+}
+
+#speakerdeck_btn {
+	background-position: 0 -540px;
+}
+
+#twitter_btn:hover {
+	background-position: 0 -600px;
+}
+
+#twitter_btn {
+	background-position: 0 -660px;
+}
