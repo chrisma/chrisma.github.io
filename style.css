@@ -26,8 +26,8 @@ body {
 	margin-left: 50px;
 }
 
-#content hr {
-	margin: 1em 0 3.5em 0;
+#content>hr {
+	border: 1px solid rgb(175, 175, 175);
 }
 
 header {
@@ -52,6 +52,7 @@ li {
 ul#socialbar {
 	list-style: none;
 	padding: 0px;
+	margin-top: 3.5em;
 }
 
 span.small-space {
