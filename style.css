@@ -112,3 +112,9 @@ div.button {
 #twitter_btn {
 	background-position: 0 -660px;
 }
+
+#recently {
+	float: none;
+	margin-top: 360px;
+	margin-left: 50px;
+}
