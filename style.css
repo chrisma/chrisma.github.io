@@ -8,14 +8,14 @@ body {
 #portrait {
 	border-radius: 50%;
 	overflow: hidden;
-	width: 20em;
-	height: 20em;
+	width: 19em;
+	height: 19em;
 }
 
 #container {
 	display: inline-block;
 	text-align: left;
-	margin-top: 10%;
+	margin-top: 8%;
 }
 
 #container>* {
@@ -119,6 +119,6 @@ div.button {
 
 #recently {
 	float: none;
-	margin-top: 360px;
+	margin-top: 340px;
 	margin-left: 50px;
 }
