@@ -40,6 +40,10 @@ header strong {
 	font-weight: 700;
 }
 
+a {
+	color: rgb(40, 40, 40);
+}
+
 img.button {
 	width: 48px;
 }
