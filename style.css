@@ -44,15 +44,15 @@ img.button {
 	width: 48px;
 }
 
-li {
-	display : inline-block;
-	margin-right: 7px;
-}
-
 ul#socialbar {
 	list-style: none;
 	padding: 0px;
 	margin-top: 3.5em;
+}
+
+ul#socialbar li {
+	display : inline-block;
+	margin-right: 7px;
 }
 
 span.small-space {
