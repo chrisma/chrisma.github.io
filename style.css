@@ -117,6 +117,38 @@ div.button {
 	background-position: 0 -660px;
 }
 
+svg {
+	height: 100%;
+}
+
+svg#facebook:hover .icon-bg {
+	fill: #3b5998;
+}
+
+svg#twitter:hover .icon-bg {
+	fill: #50abe4;
+}
+
+svg#speakerdeck:hover .icon-bg {
+	fill: #359d5f;
+}
+
+svg#github:hover .icon-bg {
+	fill: #1a1817;
+}
+
+svg#soupio:hover .icon-bg {
+	fill: #e6120e;
+}
+
+.icon-bg {
+	transition: 300ms;
+	transition-timing-function: ease-in-out;
+	-webkit-transition: 300ms;
+	-webkit-transition-timing-function: ease-in-out;
+}
+
+
 #recently {
 	float: none;
 	margin-top: 340px;
