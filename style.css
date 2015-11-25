@@ -145,6 +145,14 @@ svg#instructables:hover .icon-bg {
 	fill: #fabd09;
 }
 
+svg#snapchat:hover .icon-bg {
+	fill: #f7e919;
+}
+
+svg#email:hover .icon-bg {
+	fill: #f89a1e;
+}
+
 .icon-bg {
 	transition: 300ms;
 	transition-timing-function: ease-in-out;
