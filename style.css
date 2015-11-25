@@ -59,6 +59,11 @@ ul#socialbar li {
 	margin-right: 7px;
 }
 
+ul#socialbar li a {
+	height: 50px;
+	display: inline-block;
+}
+
 span.small-space {
 	letter-spacing: -0.025em
 }
