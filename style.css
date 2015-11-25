@@ -141,6 +141,10 @@ svg#soupio:hover .icon-bg {
 	fill: #e6120e;
 }
 
+svg#instructables:hover .icon-bg {
+	fill: #fabd09;
+}
+
 .icon-bg {
 	transition: 300ms;
 	transition-timing-function: ease-in-out;
