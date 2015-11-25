@@ -63,60 +63,6 @@ span.small-space {
 	letter-spacing: -0.025em
 }
 
-div.button {
-	background: url(img/sprites_small.png) no-repeat top left;
-	width: 50px;
-	height: 50px;
-}
-
-#email_btn:hover {
-	background-position: 0 0;
-}
-
-#email_btn {
-	background-position: 0 -60px;
-}
-
-#github_btn:hover {
-	background-position: 0 -120px;
-}
-
-#github_btn {
-	background-position: 0 -180px;
-}
-
-#instructables_btn:hover {
-	background-position: 0 -240px;
-}
-
-#instructables_btn {
-	background-position: 0 -300px;
-}
-
-#soupio_btn:hover {
-	background-position: 0 -360px;
-}
-
-#soupio_btn {
-	background-position: 0 -420px;
-}
-
-#speakerdeck_btn:hover {
-	background-position: 0 -480px;
-}
-
-#speakerdeck_btn {
-	background-position: 0 -540px;
-}
-
-#twitter_btn:hover {
-	background-position: 0 -600px;
-}
-
-#twitter_btn {
-	background-position: 0 -660px;
-}
-
 svg {
 	height: 100%;
 }
@@ -159,7 +105,6 @@ svg#email:hover .icon-bg {
 	-webkit-transition: 300ms;
 	-webkit-transition-timing-function: ease-in-out;
 }
-
 
 #recently {
 	float: none;
