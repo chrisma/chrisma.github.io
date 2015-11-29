@@ -51,7 +51,7 @@ img.button {
 ul#socialbar {
   list-style: none;
   padding: 0px;
-  margin-top: 3.5em;
+  margin-top: 48px;
 }
 
 ul#socialbar li {
@@ -152,7 +152,6 @@ a.tooltip span {
   text-align: center;
 }
 
-
 a.tooltip span:after {
   content: '';
   position: absolute;
@@ -166,7 +165,6 @@ a.tooltip:hover span {
 }
 
 /* Icon tooltips*/
-
 a.icon-tooltip span {
   width: 165px;
   line-height: 25px;
@@ -181,9 +179,8 @@ a.icon-tooltip span:after {
 }
 
 /* Header tooltip */
-
 a.header-tooltip span {
-  width: 140px;
+  width: 180px;
   line-height: 30px;
   bottom: 70px;
   left: 0;
@@ -194,4 +191,9 @@ a.header-tooltip span:after {
   top: 100%;
   left: 21.5%;
   border-top: 8px solid #000000;
+}
+
+#header-tt {
+  font-size: 16px;
+  letter-spacing: normal;
 }
