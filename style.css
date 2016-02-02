@@ -44,10 +44,6 @@ a {
   color: rgb(40, 40, 40);
 }
 
-img.button {
-  width: 48px;
-}
-
 ul#socialbar {
   list-style: none;
   padding: 0px;
@@ -164,20 +160,6 @@ a.tooltip:hover span {
   visibility: visible;
 }
 
-/* Icon tooltips*/
-a.icon-tooltip span {
-  width: 165px;
-  line-height: 25px;
-  top: 65px;
-  left: -115%;
-}
-
-a.icon-tooltip span:after {
-  bottom: 100%;
-  left: 50%;
-  border-bottom: 8px solid #000000;
-}
-
 /* Header tooltip */
 a.header-tooltip span {
   width: 180px;
@@ -196,4 +178,92 @@ a.header-tooltip span:after {
 #header-tt {
   font-size: 16px;
   letter-spacing: normal;
+}
+
+
+[data-hint]:after {
+  font-size: 13px;
+  line-height: 13px;
+}
+
+/**
+ * Custom hint colors
+ */
+/* Email */
+.hint--email:after {
+  background-color: #f89a1e;
+  text-shadow: 1px 1px 1px #543103;
+}
+
+.hint--email.hint--top:before {
+  border-top-color: #f89a1e;
+}
+
+.hint--email.hint--bottom:before {
+  border-bottom-color: #f89a1e;
+}
+/* Twitter */
+.hint--twitter:after {
+  background-color: #50abe4;
+  text-shadow: 1px 1px 1px #092739;
+}
+
+.hint--twitter.hint--top:before {
+  border-top-color: #50abe4;
+}
+
+.hint--twitter.hint--bottom:before {
+  border-bottom-color: #50abe4;
+}
+/* Facebook */
+.hint--facebook:after {
+  background-color: #3b5998;
+  text-shadow: 1px 1px 1px #13547c;
+}
+
+.hint--facebook.hint--top:before {
+  border-top-color: #3b5998;
+}
+
+.hint--facebook.hint--bottom:before {
+  border-bottom-color: #3b5998;
+}
+/* Speakerdeck */
+.hint--speakerdeck:after {
+  background-color: #359d5f;
+  text-shadow: 1px 1px 1px #1b5030;
+}
+
+.hint--speakerdeck.hint--top:before {
+  border-top-color: #359d5f;
+}
+
+.hint--speakerdeck.hint--bottom:before {
+  border-bottom-color: #359d5f;
+}
+/* soup.io */
+.hint--soupio:after {
+  background-color: #e6120e;
+  text-shadow: 1px 1px 1px #6a0806;
+}
+
+.hint--soupio.hint--top:before {
+  border-top-color: #e6120e;
+}
+
+.hint--soupio.hint--bottom:before {
+  border-bottom-color: #e6120e;
+}
+/* instructables */
+.hint--instructables:after {
+  background-color: #fabd09;
+  text-shadow: 1px 1px 1px black;
+}
+
+.hint--instructables.hint--top:before {
+  border-top-color: #fabd09;
+}
+
+.hint--instructables.hint--bottom:before {
+  border-bottom-color: #fabd09;
 }
