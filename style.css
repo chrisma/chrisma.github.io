@@ -277,7 +277,7 @@ a.header-tooltip span:after {
   opacity: 0;
   max-height: 0;
   font-size: 0;
-  transition: .25s ease;
+  transition: .2s ease;
 }
 
 .read-more-state:checked ~ .read-more-container .read-more-hidden {
@@ -303,4 +303,35 @@ a.header-tooltip span:after {
   line-height: 2;
   border: 1px solid #ddd;
   border-radius: .25em;
+}
+
+/* Heading with lines */
+
+li.heading {
+  list-style: none;
+}
+
+li.heading > h3 {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
+
+li.heading > h3:before,
+li.heading > h3:after {
+  flex-grow: 1;
+  height: 1px;
+  content: '\a0';
+  background-color: #ddd;
+  position: relative;
+  top: 0.5em;
+}
+
+li.heading > h3:before {
+  margin-right:10px;
+}
+
+li.heading > h3:after {
+  margin-left:10px;
 }
