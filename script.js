@@ -15,7 +15,7 @@ function main(){
 	Array.prototype.forEach.call(timelineBlocks, function(el, i){
 		var rect = el.getBoundingClientRect();
 		var offsetTop = rect.top + document.body.scrollTop;
-		if (offsetTop > scrollTop + windowHeight * 0.95) {
+		if (offsetTop > scrollTop + windowHeight * 0.9) {
 			var timelineParts = el.querySelectorAll('.timeline-panel, .timeline-badge');
 			Array.prototype.forEach.call(timelineParts, function(part, i){
 				part.classList.add('hidden');
@@ -28,7 +28,7 @@ function main(){
 		Array.prototype.forEach.call(timelineBlocks, function(el, i){
 			var rect = el.getBoundingClientRect();
 			var offsetTop = rect.top + document.body.scrollTop;
-			if (offsetTop <= scrollTop + windowHeight * 0.95 && el.querySelectorAll('.timeline-panel')[0].classList.contains('hidden')) {
+			if (offsetTop <= scrollTop + windowHeight * 0.9 && el.querySelectorAll('.timeline-panel')[0].classList.contains('hidden')) {
 				var timelineParts = el.querySelectorAll('.timeline-panel, .timeline-badge');
 				Array.prototype.forEach.call(timelineParts, function(part, i){
 					part.classList.remove('hidden');
