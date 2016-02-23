@@ -32,6 +32,7 @@ function main(){
 				var timelineParts = el.querySelectorAll('.timeline-panel, .timeline-badge');
 				Array.prototype.forEach.call(timelineParts, function(part, i){
 					part.classList.remove('hidden');
+					part.classList.add('bounce-in');
 				});
 			}
 		});
