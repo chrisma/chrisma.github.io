@@ -43,6 +43,7 @@ header strong {
 
 a {
   color: rgb(40, 40, 40);
+  outline: 0;
 }
 
 ul#socialbar {
@@ -107,6 +108,14 @@ svg#snapchat:hover .icon-bg {
 
 svg#email:hover .icon-bg {
   fill: #f89a1e;
+}
+
+svg#researchgate:hover .icon-bg {
+  fill: #00ccbb;
+}
+
+svg#linkedin:hover .icon-bg {
+  fill: #0977b6;
 }
 
 .icon-bg {
@@ -268,6 +277,32 @@ a.header-tooltip span:after {
 
 .hint--instructables.hint--bottom:before {
   border-bottom-color: #fabd09;
+}
+/* researchgate */
+.hint--researchgate:after {
+  background-color: #00ccbb;
+  text-shadow: 1px 1px 1px black;
+}
+
+.hint--researchgate.hint--top:before {
+  border-top-color: #00ccbb;
+}
+
+.hint--researchgate.hint--bottom:before {
+  border-bottom-color: #00ccbb;
+}
+/* linkedin */
+.hint--linkedin:after {
+  background-color: #0977b6;
+  text-shadow: 1px 1px 1px black;
+}
+
+.hint--linkedin.hint--top:before {
+  border-top-color: #0977b6;
+}
+
+.hint--linkedin.hint--bottom:before {
+  border-bottom-color: #0977b6;
 }
 
 /*
