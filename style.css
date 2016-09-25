@@ -100,6 +100,10 @@ svg#email:hover .icon-bg {
   fill: #f89a1e;
 }
 
+svg#instagram:hover .icon-bg {
+  fill: url(#background);
+}
+
 .icon-bg {
   transition: 300ms;
   transition-timing-function: ease-in-out;
@@ -260,6 +264,19 @@ a.header-tooltip span:after {
 
 .hint--instructables.hint--bottom:before {
   border-bottom-color: #fabd09;
+}
+/* instagram */
+.hint--instagram:after {
+  background-color: #5f51cb;
+  text-shadow: 1px 1px 1px black;
+}
+
+.hint--instagram.hint--top:before {
+  border-top-color: #5f51cb;
+}
+
+.hint--instagram.hint--bottom:before {
+  border-bottom-color: #5f51cb;
 }
 
 /*
