@@ -84,10 +84,6 @@ svg#github:hover .icon-bg {
   fill: #1a1817;
 }
 
-svg#soupio:hover .icon-bg {
-  fill: #e6120e;
-}
-
 svg#instructables:hover .icon-bg {
   fill: #fabd09;
 }
@@ -238,19 +234,6 @@ a.header-tooltip span:after {
 
 .hint--speakerdeck.hint--bottom:before {
   border-bottom-color: #359d5f;
-}
-/* soup.io */
-.hint--soupio:after {
-  background-color: #e6120e;
-  text-shadow: 1px 1px 1px #6a0806;
-}
-
-.hint--soupio.hint--top:before {
-  border-top-color: #e6120e;
-}
-
-.hint--soupio.hint--bottom:before {
-  border-bottom-color: #e6120e;
 }
 /* instructables */
 .hint--instructables:after {
