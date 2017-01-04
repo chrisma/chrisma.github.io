@@ -76,6 +76,10 @@ svg#twitter:hover .icon-bg {
   fill: #50abe4;
 }
 
+svg#linkedin:hover .icon-bg {
+  fill: #0977b6;
+}
+
 svg#speakerdeck:hover .icon-bg {
   fill: #359d5f;
 }
@@ -221,6 +225,19 @@ a.header-tooltip span:after {
 
 .hint--facebook.hint--bottom:before {
   border-bottom-color: #3b5998;
+}
+/* LinkedIn */
+.hint--linkedin:after {
+  background-color: #0977b6;
+  text-shadow: 1px 1px 1px #13547c;
+}
+
+.hint--linkedin.hint--top:before {
+  border-top-color: #0977b6;
+}
+
+.hint--linkedin.hint--bottom:before {
+  border-bottom-color: #0977b6;
 }
 /* Speakerdeck */
 .hint--speakerdeck:after {
