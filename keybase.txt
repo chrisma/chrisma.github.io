@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/chrisma
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://christophmatthi.es
+  * I am chrisma (https://keybase.io/chrisma) on keybase.
+  * I have a public key ASAsz-jG6Y-Tyakb1iZLKkkyPPubYYFa1rXf9khFFnTj4Ao
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01202ccfe8c6e98f93c9a91bd6264b2a49323cfb9b61815ad6b5dff648451674e3e00a",
+            "host": "keybase.io",
+            "kid": "01202ccfe8c6e98f93c9a91bd6264b2a49323cfb9b61815ad6b5dff648451674e3e00a",
+            "uid": "44f23a958e98103f9809a634006ccb19",
+            "username": "chrisma"
+        },
+        "service": {
+            "hostname": "christophmatthi.es",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1466004846,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1466004804,
+        "hash": "2c56e13de18618f73d1b0ec5a104c56df6943f743cbed77ff78e74bd07b9c05089d1aa9bd3a2336bd0fb3586492919c5c5cb9cece5faa0aef35e9e9f2217f131",
+        "seqno": 487923
+    },
+    "prev": "481b7be248ef6c8748d4cb40a212f2bcc9d73bc1a4150df71d85b59a03ad6393",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgLM/oxumPk8mpG9YmSypJMjz7m2GBWta13/ZIRRZ04+AKp3BheWxvYWTFAvh7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMmNjZmU4YzZlOThmOTNjOWE5MWJkNjI2NGIyYTQ5MzIzY2ZiOWI2MTgxNWFkNmI1ZGZmNjQ4NDUxNjc0ZTNlMDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMmNjZmU4YzZlOThmOTNjOWE5MWJkNjI2NGIyYTQ5MzIzY2ZiOWI2MTgxNWFkNmI1ZGZmNjQ4NDUxNjc0ZTNlMDBhIiwidWlkIjoiNDRmMjNhOTU4ZTk4MTAzZjk4MDlhNjM0MDA2Y2NiMTkiLCJ1c2VybmFtZSI6ImNocmlzbWEifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImNocmlzdG9waG1hdHRoaS5lcyIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTYifSwiY3RpbWUiOjE0NjYwMDQ4NDYsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ2NjAwNDgwNCwiaGFzaCI6IjJjNTZlMTNkZTE4NjE4ZjczZDFiMGVjNWExMDRjNTZkZjY5NDNmNzQzY2JlZDc3ZmY3OGU3NGJkMDdiOWMwNTA4OWQxYWE5YmQzYTIzMzZiZDBmYjM1ODY0OTI5MTljNWM1Y2I5Y2VjZTVmYWEwYWVmMzVlOWU5ZjIyMTdmMTMxIiwic2Vxbm8iOjQ4NzkyM30sInByZXYiOiI0ODFiN2JlMjQ4ZWY2Yzg3NDhkNGNiNDBhMjEyZjJiY2M5ZDczYmMxYTQxNTBkZjcxZDg1YjU5YTAzYWQ2MzkzIiwic2Vxbm8iOjgsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAFThrGlICvfNheVxuivnIgLjZx2UI4oFw5ebUx1gbelqrW3MdA5CfMU7akjTBAk2OgKX8p51fLy8yj5jZw6j9BKhzaWdfdHlwZSCjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/chrisma
+
+==================================================================
