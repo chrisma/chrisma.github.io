@@ -7,7 +7,7 @@ var windowHeight = window.innerHeight || document.documentElement.clientHeight |
 Array.prototype.forEach.call(timelineBlocks, function(el, i){
 	var offsetTop = el.getBoundingClientRect().top + scrollTop;
 	if (offsetTop > scrollTop + windowHeight * 0.9) {
-		var timelineParts = el.querySelectorAll('.tl-panel, .tl-badge');
+		var timelineParts = el.querySelectorAll('.pop-in');
 		Array.prototype.forEach.call(timelineParts, function(part, i){
 			part.classList.add('hidden');
 		});
@@ -22,8 +22,8 @@ window.addEventListener('scroll', function(){
 		var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
 		var offsetTop = el.getBoundingClientRect().top + scrollTop;
 		var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-		if (offsetTop <= scrollTop + windowHeight * 0.9 && el.querySelector('.tl-panel').classList.contains('hidden')) {
-			var timelineParts = el.querySelectorAll('.tl-panel, .tl-badge');
+		if (offsetTop <= scrollTop + windowHeight * 0.9 && el.querySelector('.pop-in').classList.contains('hidden')) {
+			var timelineParts = el.querySelectorAll('.pop-in');
 			Array.prototype.forEach.call(timelineParts, function(part, i){
 				part.classList.remove('hidden');
 				part.classList.add('bounce-in');
