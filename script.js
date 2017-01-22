@@ -1,4 +1,4 @@
-var timelineBlocks = document.querySelectorAll('.timeline > li');
+var timelineBlocks = document.querySelectorAll('.timeline > .tl-item');
 // http://stackoverflow.com/questions/28633221/document-body-scrolltop-firefox-returns-0-only-js
 var scrollTop = function(){ return document.documentElement.scrollTop || document.body.scrollTop };
 var offsetTop = function(el){ return el.getBoundingClientRect().top + scrollTop() };

@@ -327,19 +327,19 @@ a.header-tooltip span:after {
   -o-transition: height .2s ease-in-out;
   transition: height .2s ease-in-out;
 }
-.timeline > li {
+.tl-item {
   margin-bottom: -5px;
   position: relative;
 }
-.timeline > li:before,
-.timeline > li:after {
+.tl-item:before,
+.tl-item:after {
   content: " ";
   display: table;
 }
-.timeline > li:after {
+.tl-item:after {
   clear: both;
 }
-.timeline > li > .tl-panel {
+.tl-item > .tl-panel {
   width: 39%;
   float: left;
   /*border-radius: 2px;*/
@@ -349,7 +349,7 @@ a.header-tooltip span:after {
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
 }
-.timeline > li > .tl-panel:before {
+.tl-item > .tl-panel:before {
   position: absolute;
   top: 10px;
   right: -15px;
@@ -360,7 +360,7 @@ a.header-tooltip span:after {
   border-bottom: 15px solid transparent;
   content: " ";
 }
-.timeline > li > .tl-panel:after {
+.tl-item > .tl-panel:after {
   position: absolute;
   top: 11px;
   right: -14px;
@@ -371,7 +371,7 @@ a.header-tooltip span:after {
   border-bottom: 14px solid transparent;
   content: " ";
 }
-.timeline > li > .tl-badge {
+.tl-item > .tl-badge {
   color: #fff;
   width: 30px;
   height: 30px;
@@ -389,16 +389,16 @@ a.header-tooltip span:after {
   border-bottom-left-radius: 50%;
   box-shadow: 0px 0px 0px 4px #FFF, 0px 2px 0px rgba(0, 0, 0, 0.08) inset, 0px 3px 0px 4px rgba(0, 0, 0, 0.05);
 }
-.timeline > li:nth-child(even) .tl-panel {
+.tl-item:nth-child(even) .tl-panel {
   float: right;
 }
-.timeline > li:nth-child(even) .tl-panel:before {
+.tl-item:nth-child(even) .tl-panel:before {
   border-left-width: 0;
   border-right-width: 15px;
   left: -15px;
   right: auto;
 }
-.timeline > li:nth-child(even) .tl-panel:after {
+.tl-item:nth-child(even) .tl-panel:after {
   border-left-width: 0;
   border-right-width: 14px;
   left: -14px;
@@ -425,13 +425,20 @@ a.header-tooltip span:after {
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.25) !important;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.25) !important;
 }
-
+.tl-year {
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  left: 47.7%;
+  background-color: white;
+  line-height: 25px;
+  color: #7d7d7d;
+}
 .hidden {
   visibility: hidden;
   /*display: none;*/
   /*opacity: 0;*/
 }
-
 .tl-badge.bounce-in {
   visibility: visible;
   -webkit-animation: badge-bounce 0.6s;
