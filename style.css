@@ -1,12 +1,11 @@
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
-  /* Center container with content */
-  text-align: center;
   padding-bottom: 150px;
 }
 
 #portrait {
+  display: inline-block;
   border-radius: 50%;
   overflow: hidden;
   width: 19em;
@@ -14,16 +13,15 @@ body {
 }
 
 #container {
-  display: inline-block;
-  text-align: left;
   margin-top: 10%;
-}
-
-#container>* {
-  float: left;
+  /* Center container with content */
+  margin-left: auto;
+  margin-right: auto;
+  width: 44%;
 }
 
 #content {
+  display: inline-block;
   margin-left: 50px;
 }
 
@@ -123,11 +121,6 @@ svg#instagram:hover .icon-bg {
   transition-timing-function: ease-in-out;
   -webkit-transition: 300ms;
   -webkit-transition-timing-function: ease-in-out;
-}
-
-#recently {
-  float: none;
-  margin-top: 400px;
 }
 
 #more {
