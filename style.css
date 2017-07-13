@@ -10,6 +10,7 @@ body {
   overflow: hidden;
   width: 19em;
   height: 19em;
+  margin-right: 50px;
 }
 
 #container {
@@ -22,7 +23,6 @@ body {
 
 #content {
   display: inline-block;
-  margin-left: 50px;
 }
 
 hr {
@@ -294,6 +294,7 @@ a.header-tooltip span:after {
   list-style: none;
   padding: 10px 0 20px;
   position: relative;
+  min-width: 600px;
 }
 .timeline:before {
   top: 0;
