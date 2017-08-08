@@ -169,12 +169,6 @@ a.header-tooltip span:after {
   border-top: 8px solid #000000;
 }
 
-#header-tt {
-  font-size: 16px;
-  letter-spacing: normal;
-}
-
-
 [data-hint]:after {
   font-size: 13px;
   line-height: 13px;
