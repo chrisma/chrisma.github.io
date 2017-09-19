@@ -13,7 +13,7 @@ body {
   margin-right: 50px;
 }
 
-#container {
+.container {
   margin-top: 10%;
   /* Center container with content */
   margin-left: auto;
