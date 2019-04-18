@@ -47,7 +47,6 @@ a {
 ul#socialbar {
   list-style: none;
   padding: 0px;
-  margin-top: 48px;
 }
 
 ul#socialbar > li {
@@ -72,55 +71,63 @@ span.squished {
   letter-spacing: -0.025em
 }
 
-svg {
-  height: 100%;
+.tile {
+  width: 50px;
+  line-height: 50px;
+  background-color: gray;
+  color: white;
+  text-align: center;
 }
 
-svg#facebook:hover .icon-bg {
-  fill: #3b5998;
+.tile-icon {
+  font-size: 2.2em;
+  vertical-align: middle;
 }
 
-svg#twitter:hover .icon-bg {
-  fill: #50abe4;
+.tile-icon.fa-facebook-f {
+  vertical-align: bottom;
+  padding-right: 7px; 
+  font-size: 2.7em;
+}
+#facebook {
+  text-align: right;
+}
+#facebook:hover {
+  background-color: #3b5998 !important;
 }
 
-svg#linkedin:hover .icon-bg {
-  fill: #0977b6;
+#twitter:hover {
+  background-color: #50abe4 !important;
 }
 
-svg#speakerdeck:hover .icon-bg {
-  fill: #359d5f;
+#linkedin:hover {
+  background-color: #0977b6 !important;
 }
 
-svg#github:hover .icon-bg {
-  fill: #1a1817;
+#speakerdeck:hover {
+  background-color: #359d5f !important;
 }
 
-svg#instructables:hover .icon-bg {
-  fill: #fabd09;
+#github:hover {
+  background-color: #1a1817 !important;
 }
 
-svg#snapchat:hover .icon-bg {
-  fill: #f7e919;
+.tile-icon.fa-tools {
+  font-size: 1.6em;
+}
+#instructables:hover {
+  background-color: #fabd09 !important;
 }
 
-svg#email:hover .icon-bg {
-  fill: #f89a1e;
+.tile-icon.fa-instagram {
+  font-size: 2.5em;
+}
+#instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%) !important;
 }
 
-svg#researchgate:hover .icon-bg {
-  fill: #00ccbb;
-}
-
-svg#instagram:hover .icon-bg {
-  fill: url(#background);
-}
-
-.icon-bg {
-  transition: 300ms;
-  transition-timing-function: ease-in-out;
-  -webkit-transition: 300ms;
-  -webkit-transition-timing-function: ease-in-out;
+#researchgate:hover {
+  background-color: #00ccbb !important;
 }
 
 #more {
@@ -270,16 +277,16 @@ a.header-tooltip span:after {
 }
 /* instagram */
 .hint--instagram:after {
-  background-color: #5f51cb;
+  background-color: #285AEB;
   text-shadow: 1px 1px 1px black;
 }
 
 .hint--instagram.hint--top:before {
-  border-top-color: #5f51cb;
+  border-top-color: #285AEB;
 }
 
 .hint--instagram.hint--bottom:before {
-  border-bottom-color: #5f51cb;
+  border-bottom-color: #285AEB;
 }
 
 /* timeline */
