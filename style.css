@@ -184,16 +184,22 @@ a.header-tooltip span:after {
 /**
  * Custom hint colors
  */
+/* Date */
+.hint--date:after {
+  background-color: #777777 !important;
+  text-shadow: 1px 1px 1px black;
+}
+.hint--date.hint--top:before {
+  border-top-color: #777777;
+}
 /* Email */
 .hint--email:after {
   background-color: #f89a1e;
   text-shadow: 1px 1px 1px #543103;
 }
-
 .hint--email.hint--top:before {
   border-top-color: #f89a1e;
 }
-
 .hint--email.hint--bottom:before {
   border-bottom-color: #f89a1e;
 }
@@ -202,11 +208,9 @@ a.header-tooltip span:after {
   background-color: #50abe4;
   text-shadow: 1px 1px 1px #092739;
 }
-
 .hint--twitter.hint--top:before {
   border-top-color: #50abe4;
 }
-
 .hint--twitter.hint--bottom:before {
   border-bottom-color: #50abe4;
 }
@@ -215,11 +219,9 @@ a.header-tooltip span:after {
   background-color: #3b5998;
   text-shadow: 1px 1px 1px #13547c;
 }
-
 .hint--facebook.hint--top:before {
   border-top-color: #3b5998;
 }
-
 .hint--facebook.hint--bottom:before {
   border-bottom-color: #3b5998;
 }
@@ -228,11 +230,9 @@ a.header-tooltip span:after {
   background-color: #0977b6;
   text-shadow: 1px 1px 1px #13547c;
 }
-
 .hint--linkedin.hint--top:before {
   border-top-color: #0977b6;
 }
-
 .hint--linkedin.hint--bottom:before {
   border-bottom-color: #0977b6;
 }
@@ -241,11 +241,9 @@ a.header-tooltip span:after {
   background-color: #359d5f;
   text-shadow: 1px 1px 1px #1b5030;
 }
-
 .hint--speakerdeck.hint--top:before {
   border-top-color: #359d5f;
 }
-
 .hint--speakerdeck.hint--bottom:before {
   border-bottom-color: #359d5f;
 }
@@ -254,11 +252,9 @@ a.header-tooltip span:after {
   background-color: #fabd09;
   text-shadow: 1px 1px 1px black;
 }
-
 .hint--instructables.hint--top:before {
   border-top-color: #fabd09;
 }
-
 .hint--instructables.hint--bottom:before {
   border-bottom-color: #fabd09;
 }
@@ -267,11 +263,9 @@ a.header-tooltip span:after {
   background-color: #00ccbb;
   text-shadow: 1px 1px 1px black;
 }
-
 .hint--researchgate.hint--top:before {
   border-top-color: #00ccbb;
 }
-
 .hint--researchgate.hint--bottom:before {
   border-bottom-color: #00ccbb;
 }
@@ -280,11 +274,9 @@ a.header-tooltip span:after {
   background-color: #285AEB;
   text-shadow: 1px 1px 1px black;
 }
-
 .hint--instagram.hint--top:before {
   border-top-color: #285AEB;
 }
-
 .hint--instagram.hint--bottom:before {
   border-bottom-color: #285AEB;
 }
