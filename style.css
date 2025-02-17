@@ -96,10 +96,6 @@ span.squished {
   background-color: #3b5998 !important;
 }
 
-#twitter:hover {
-  background-color: #50abe4 !important;
-}
-
 #linkedin:hover {
   background-color: #0977b6 !important;
 }
@@ -108,7 +104,7 @@ span.squished {
   background-color: #359d5f !important;
 }
 
-#github:hover {
+#github:hover, #x:hover {
   background-color: #1a1817 !important;
 }
 
@@ -202,17 +198,6 @@ a.header-tooltip span:after {
 }
 .hint--email.hint--bottom:before {
   border-bottom-color: #f89a1e;
-}
-/* Twitter */
-.hint--twitter:after {
-  background-color: #50abe4;
-  text-shadow: 1px 1px 1px #092739;
-}
-.hint--twitter.hint--top:before {
-  border-top-color: #50abe4;
-}
-.hint--twitter.hint--bottom:before {
-  border-bottom-color: #50abe4;
 }
 /* Facebook */
 .hint--facebook:after {
